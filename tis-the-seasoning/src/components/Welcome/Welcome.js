@@ -10,21 +10,26 @@ function Welcome() {
           <form className="form-group" action="/login" />
           <div>
             <h2>Welcome Back</h2>
-            <label for="email">Email</label>
+            <a href="/login" className="btn btn-danger" type="submit">Login</a>
+            <br/>
+            <hr/>
+            <h2>Sample Only</h2>
+            <a href="/allrecipes" className="btn btn-danger" type="submit">Guest</a>
+            {/* <label for="email">Email</label>
             <input type="email" className="form-control" id="email" name="email" placeholder="email" required />
           </div>
           <div>
             <label for="password">Password</label>
-            <input type="pasword" className="form-control" id="password" name="password" placeholder="password" required />
+            <input type="pasword" className="form-control" id="password" name="password" placeholder="password" required /> */}
           </div>
-          <br />
-          <a href="/allrecipes" className="btn btn-danger" type="submit">Login</a>
-          {/* button still works even without form being filled in */}
+
+           {/* button still works even without form being filled in */}
         </div>
+
 {/* New Users ========== All routes currently lead to All Recipes Page */}
         <div className="col-5">
           <form className="form-group" action="/login" />
-          <h2>Come Taste!</h2>
+          <h2>Fully Immerse</h2>
           <div>
             <label for="fullname">Full Name</label>
             <input type="text" className="form-control" id="fullname" name="fullname" placeholder="Full Name" required />
