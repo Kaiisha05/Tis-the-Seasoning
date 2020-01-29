@@ -4,10 +4,8 @@ import './Home.css';
 
 function Home() {
   return (
-    <div className="row">
-      <div className="medium-12 columns">
-  Home Page 
-      </div>
+    <div className="container"> 
+       <h2>A Recipe-Sharing App. Test new flavors or impress by sharing one of your own...</h2>
     </div>
   );
 }

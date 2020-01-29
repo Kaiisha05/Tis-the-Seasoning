@@ -13,18 +13,11 @@ import './styles/custom.css';
 function App() {
 
   return (
-    <div classNameName="off-canvas-wrapper">
-      <div classNameName="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+    <div>
+      <Header />
+      <Routes />
 
 
-        <div className="off-canvas-content" data-off-canvas-content>
-
-          <Header />
-          <Routes />
-          <hr />
-          < Footer />
-        </div>
-      </div>
     </div>
 
   );

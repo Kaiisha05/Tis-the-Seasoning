@@ -1,16 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap");
+
 body {
-    color: #333333;
+background: linear-gradient(hsla(0, 0%, 100%, 0.8) 0%, hsla(0, 0%, 100%, 0.8) 100%), url("https://source.unsplash.com/random/?seasons") no-repeat fixed center center / cover; padding-top: 2rem;
 }
 
-.primary {
-    background: #f2b632 !important;
-}
+h1 {
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    color: red;
+    font-size: 6.5em;
+    margin-top: 25px;
+  }
 
-.secondary {
-    background: #242c43 !important;
-    color: #ffffff !important;
- 
-}
+  h2 {
+    text-align: center;
+    color: red;
+    margin-bottom: 4rem;
+  }
+
 .bodypart {
     min-height: 450px;
 }
