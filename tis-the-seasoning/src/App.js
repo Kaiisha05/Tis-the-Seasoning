@@ -17,6 +17,7 @@ function App() {
     <Router>
 {/* Router = wraps all your components that you want to have the ability to use routing */}
       <div className='App'>
+        {/* header needs a state so it will change once it renders that single recipes page */}
         <Header />
         <Switch>
           {/* Switch = stops the whole process of going through all the routes. As soon as the path matches the URL it wll stop and only render out that specific component. You will have to include "exact" for the "home" route so it won't stop on this component it will keep checking */}

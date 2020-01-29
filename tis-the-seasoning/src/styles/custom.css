@@ -19,3 +19,7 @@ margin-bottom: 4rem;
 font-size: 1.875rem;
 }
 
+.ready {
+align-items: center;
+justify-content: center;
+}
