@@ -19,6 +19,7 @@ function Welcome() {
           </div>
           <br />
           <a href="/allrecipes" className="btn btn-danger" type="submit">Login</a>
+          {/* button still works even without form being filled in */}
         </div>
 {/* New Users ========== All routes currently lead to All Recipes Page */}
         <div className="col-5">
@@ -38,6 +39,7 @@ function Welcome() {
           </div>
           <br />
           <a href="/login" className="btn btn-danger" type="submit">Signup</a>
+          {/* button still works even without form being filled in */}
         </div>
       </div>
     </div>

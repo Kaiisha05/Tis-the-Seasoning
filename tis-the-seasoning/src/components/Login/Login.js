@@ -18,6 +18,7 @@ function Login() {
           </div>
           <br />
           <a href="/allrecipes" className="btn btn-danger" type="submit">Login</a>
+          {/* button still works even without form being filled in */}
         </div>
       </div>
       </div>
