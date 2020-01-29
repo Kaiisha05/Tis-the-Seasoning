@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import Login from './components/Login/Login';
+import Recipe from './components/Recipe/Recipe';
+import AllRecipes from './components/AllRecipes/AllRecipes';
+import Routes from './routes';
+import './styles/foundation.min.css';
+import './styles/custom.css';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div classNameName="off-canvas-wrapper">
+      <div classNameName="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+
+        <div className="off-canvas-content" data-off-canvas-content>
+
+          <Header />
+          <Routes />
+          <hr />
+          < Footer />
+        </div>
+      </div>
     </div>
+
   );
 }
 
