@@ -5,19 +5,17 @@ background: linear-gradient(hsla(0, 0%, 100%, 0.8) 0%, hsla(0, 0%, 100%, 0.8) 10
 }
 
 h1 {
-    font-family: "Great Vibes", cursive;
-    text-align: center;
-    color: red;
-    font-size: 6.5em;
-    margin-top: 25px;
-  }
-
-  h2 {
-    text-align: center;
-    color: red;
-    margin-bottom: 4rem;
-  }
-
-.bodypart {
-    min-height: 450px;
+font-family: "Great Vibes", cursive;
+text-align: center;
+color: red;
+font-size: 6.5em;
+margin-top: 25px;
 }
+
+h2 {
+text-align: center;
+color: red;
+margin-bottom: 4rem;
+font-size: 1.875rem;
+}
+

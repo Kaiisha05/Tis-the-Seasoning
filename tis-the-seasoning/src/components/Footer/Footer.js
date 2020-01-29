@@ -4,11 +4,9 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className="row">
-      <div className="medium-12 columns">
-Footer Page 
-      </div>
-    </div>
+    <footer className="footer">
+    <span>'Tis the Seasoning 2020</span>
+  </footer>
   );
 }
 
