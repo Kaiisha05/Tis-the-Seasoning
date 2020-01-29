@@ -3,16 +3,24 @@ import React from 'react';
 
 function Login() {
   return (
-    <div className="row small-up-2 medium-up-3 large-up-4">
-      <div className="column">
-        <h2>Login Page</h2>
-        <label>Username</label>
-        <input type="text" name="username" placeholder="username" />
-        <label>Password</label>
-        <input type="password" name="password" placeholder="password" />
-        <input type="submit" value="login" className="button" />
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-8">
+          <form className="form-group" action="/login" />
+          <div>
+            <h2>Sign In</h2>
+            <label for="email">Email</label>
+            <input type="email" className="form-control" id="email" name="email" placeholder="email" required />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="pasword" className="form-control" id="password" name="password" placeholder="password" required />
+          </div>
+          <br />
+          <a href="/allrecipes" className="btn btn-danger" type="submit">Login</a>
+        </div>
       </div>
-    </div>
+      </div>
   );
 }
 

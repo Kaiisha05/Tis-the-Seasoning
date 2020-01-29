@@ -1,5 +1,4 @@
 import React from 'react';
-import './Welcome.css';
 
 
 function Welcome() {
@@ -38,7 +37,7 @@ function Welcome() {
             <input type="password" className="form-control" id="password" name="password" placeholder="password" required />
           </div>
           <br />
-          <a href="/allrecipes" className="btn btn-danger" type="submit">Signup</a>
+          <a href="/login" className="btn btn-danger" type="submit">Signup</a>
         </div>
       </div>
     </div>
