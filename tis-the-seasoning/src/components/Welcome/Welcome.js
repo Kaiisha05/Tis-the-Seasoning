@@ -38,7 +38,7 @@ class Welcome extends Component {
               <br />
               <hr />
               <h2>Sample Only</h2>
-              <a href="/allrecipes" className="btn btn-danger" type="submit">Guest</a>
+              <a href="/recipes" className="btn btn-danger" type="submit">Guest</a>
               {/* <label for="email">Email</label>
             <input type="email" className="form-control" id="email" name="email" placeholder="email" required />
           </div>

@@ -27,8 +27,8 @@ function App() {
           <Route path='/welcome' component={Welcome} />
           <Route path='/login' component={Login} />
           {/* <Route path='/recipe' component={Recipe} /> */}
-          <Route path='/allrecipes' component={Recipes} />
-          <Route path='/recipe/' component={Recipe} />
+          <Route path='/recipes' component={Recipes} />
+          <Route path='/recipes/' component={Recipe} />
           <Route path='*' component={NotFound} />
         </Switch>
 

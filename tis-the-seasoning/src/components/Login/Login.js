@@ -40,7 +40,7 @@ class Login extends Component {
               <input type="pasword" className="form-control" id="password" name="password" placeholder="password" onChange = {this.handleInputChange} required />
             </div>
             <br />
-            <a href="/allrecipes" className="btn btn-danger" type="submit" onClick = {this.handleFormSubmit}>Login</a>
+            <a href="/recipes" className="btn btn-danger" type="submit" onClick = {this.handleFormSubmit}>Login</a>
             {/* button still works even without form being filled in */}
           </div>
         </div>
